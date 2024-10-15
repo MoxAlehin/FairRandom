@@ -1,0 +1,24 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "Fair Random",
+	"Description": "",
+	"Category": "Math",
+	"CreatedBy": "Mox Alehin",
+	"CreatedByURL": "https://github.com/MoxAlehin",
+	"DocsURL": "https://github.com/MoxAlehin",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "FairRandom",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
