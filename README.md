@@ -7,7 +7,7 @@ Players often misunderstand probability theory, and randomness can lead to negat
 
 Let's consider a coin-flipping example to compare the algorithm's behavior with pure randomness. In an experiment of 50 trials, each consisting of 10 coin flips.
 
-![[FairRanom_CoinSetup.png]]
+![FairRandom_CoinSetup](Images/FairRandom_CoinSetup.png)
 
 | Ratio | Pure | Fair |
 | ----- | ---- | ---- |
@@ -23,11 +23,11 @@ As the table shows, pure random outcomes can lead to unexpected results, like a 
 
 The plugin allows the creation of Data Assets via a Utility Widget, which describe random events with multiple outcomes.
 
-![[FairRanom_Widget.png]]
+![FairRandom_Widget](FairRandom_Widget.png)
 
 In runtime, you can register these events by attaching them to an `Owner` object (usually the player). When it's time to trigger a pseudo-random event, call `Randomize` from the subsystem.
 
-![[FairRanom_RandomEventSubsystem.png]]
+![FairRandom_RandomEventSubsystem](Images/FairRandom_RandomEventSubsystem.png)
 
 ## Random Types
 
