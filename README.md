@@ -23,7 +23,7 @@ As the table shows, pure random outcomes can lead to unexpected results, like a 
 
 The plugin allows the creation of Data Assets via a Utility Widget, which describe random events with multiple outcomes.
 
-![FairRandom_Widget](FairRandom_Widget.png)
+![FairRandom_Widget](Images/FairRandom_Widget.png)
 
 In runtime, you can register these events by attaching them to an `Owner` object (usually the player). When it's time to trigger a pseudo-random event, call `Randomize` from the subsystem.
 
