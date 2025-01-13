@@ -11,7 +11,7 @@ public class FairRandom : ModuleRules
 		PublicDependencyModuleNames.AddRange(
 			new string[]
 			{
-				"Core", "DataTableEditor", "DataTableEditor",
+				"Core"
 			}
 		);
 		
@@ -21,7 +21,7 @@ public class FairRandom : ModuleRules
 				"CoreUObject",
 				"Engine",
 				"Slate",
-				"SlateCore",
+				"SlateCore"
 			}
 		);
 	}
